@@ -26,3 +26,5 @@ const Card = ({ title, description, imageSrc }) => {
     </VStack>
   );
 };
+
+export default Card

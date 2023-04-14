@@ -14,8 +14,8 @@ import {
 } from "@chakra-ui/react";
 import * as Yup from 'yup';
 import FullScreenSection from "./FullScreenSection";
-import useSubmit from "../hooks/useSubmit";
-import { useAlertContext } from "../context/alertContext";
+import useSubmit from "../Hooks/useSubmit";
+import { useAlertContext } from "../Context/AlertContext";
 
 const ContactMeSection = () => {
   const { isLoading, response, submit } = useSubmit();
